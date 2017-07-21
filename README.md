@@ -97,7 +97,7 @@ Run `mvn clean package`
 
 ## jaas.conf
 
-Change`HOSTNAME` to the host where running the server class
+Change`HOSTNAME` to the host where running the server class and the `REALM` to the choosen one.
 
 	Client {
 		   com.sun.security.auth.module.Krb5LoginModule required
